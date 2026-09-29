@@ -1,0 +1,29 @@
+# Python environments
+venv/
+.venv/
+env/
+
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Gradio cache
+.gradio/
+
+# Model weights
+*.pth
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
